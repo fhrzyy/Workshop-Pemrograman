@@ -20,7 +20,7 @@ public class TahunKabisat {
         } catch (java.util.InputMismatchException e) {
             System.out.println("Input tidak valid harap masukkan angka");
         } finally {
-            input.close();
+            
         }
 
     }
