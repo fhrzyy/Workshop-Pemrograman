@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Kalkulator Sederhana</h2>
+    <input type="text" id="display"><br>
+
+    <button onclick="Isi('9')">9</button>
+    <button onclick="Isi('8')">8</button>
+    <button onclick="Isi('7')">7</button>
+    <button onclick="Isi('/')" class="operator">/</button><br>
+
+    <button onclick="Isi('6')">6</button>
+    <button onclick="Isi('5')">5</button>
+    <button onclick="Isi('4')">4</button>
+    <button onclick="Isi('*')" class="operator">*</button><br>
+
+    <button onclick="Isi('3')">3</button>
+    <button onclick="Isi('2')">2</button>
+    <button onclick="Isi('1')">1</button>
+    <button onclick="Isi('-')" class="operator">-</button><br>
+
+    <button onclick="Isi('0')">0</button>
+    <button onclick="Isi('.')">.</button>
+    <button onclick="Isi('+')" class="operator">+</button>
+    <button onclick="calculate()" class="equal">=</button><br>
+
+    <button onclick="clearDisplay()" class="clear">C</button>
+    <button onclick="deleteLast()" class="delete">Del</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
