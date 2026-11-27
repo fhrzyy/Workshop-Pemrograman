@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NilaiMahasiswa {
+public class array3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
